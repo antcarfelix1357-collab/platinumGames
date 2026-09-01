@@ -10,7 +10,8 @@
      <body>
        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
          <img src="imagens/1000500542.jpg" alt="" width="550" height="550" style=" transform: translateY(-200px);">
-         <input type="text" id="campoPesquisa" placeholder="Digite sua busca...">
+</div>
+         <p style="text-align: center;"><input type="text" id="campoPesquisa" placeholder="Pesquise o jogo">
 
 <!-- O botão que dispara a função -->
 <button onclick="buscarPagina()">Pesquisar</button>
@@ -22,7 +23,6 @@ function buscarPagina() {
 
     // 2. Banco de dados simples (Palavra-chave : Página de destino)
     const paginas = {
-        "início": "index.html",
         "minecraft": "minecraft.html",
         "god of war": "godofwar.html",
     };
@@ -36,6 +36,6 @@ function buscarPagina() {
         alert("Página não encontrada! Tente 'home', 'sobre' ou 'contato'.");
     }
 }
-</script>
-       </div>
+</script></p>
+       
      </body>
