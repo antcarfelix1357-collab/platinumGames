@@ -9,5 +9,32 @@
      <body>
        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
          <img src="imagens/1000500542.jpg" alt="" width="550" height="550" style=" transform: translateY(-200px);">
+         <input type="text" id="campoPesquisa" placeholder="Digite sua busca...">
+
+<!-- O botão que dispara a função -->
+<button onclick="buscarPagina()">Pesquisar</button>
+
+<script>
+function buscarPagina() {
+    // 1. Pega o valor digitado e transforma em letras minúsculas
+    const termo = document.getElementById('campoPesquisa').value.toLowerCase().trim();
+
+    // 2. Banco de dados simples (Palavra-chave : Página de destino)
+    const paginas = {
+        "home": "index.html",
+        "minecraft": "minecraft.html",
+        "sobre": "godofwar.html",
+    };
+
+    // 3. Verifica se o termo existe no banco de dados
+    if (paginas[termo]) {
+        // Redireciona para a página correspondente
+        window.location.href = paginas[termo];
+    } else {
+        // Mensagem caso não encontre nada
+        alert("Página não encontrada! Tente 'home', 'sobre' ou 'contato'.");
+    }
+}
+</script>
        </div>
      </body>
