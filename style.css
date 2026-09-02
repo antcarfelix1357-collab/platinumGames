@@ -31,6 +31,6 @@ body {
     height: 5vh;
     font-size: 20px;
     color: aqua;
-    background-color: grey;
+    background-color: rgb(179, 178, 178);
     border: 2px solid rgb(34, 33, 33)
 }
