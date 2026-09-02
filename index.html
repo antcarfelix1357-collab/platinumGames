@@ -12,10 +12,10 @@
        <div style="display: flex; justify-content: center; align-items: flex-start; height: 100vh;">
          <img src="imagens/logo.png" alt="" class="logo">
        </div>
-         <p style="text-align: center;"><input type="text" id="campoPesquisa" placeholder="Pesquise o jogo">
+         <p style="text-align: center;"> <input class="barra" type="text" id="campoPesquisa" placeholder="Pesquise o jogo">
 
 <!-- O botão que dispara a função -->
-<button onclick="buscarPagina()">Pesquisar</button>
+<button class="pesquisar" onclick="buscarPagina()">Pesquisar</button>
 
 <script>
 function buscarPagina() {
@@ -35,7 +35,7 @@ function buscarPagina() {
         window.location.href = paginas[termo];
     } else {
         // Mensagem caso não encontre nada
-        alert("Página não encontrada! Tente 'home', 'sobre' ou 'contato'.");
+        alert("Jogo não encontrado ou disponível.");
     }
 }
 </script></p>
