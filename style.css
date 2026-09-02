@@ -30,7 +30,7 @@ body {
     width: 20%;
     height: 5vh;
     font-size: 20px;
-    color: aqua;
+    color: rgb(13, 14, 14);
     background-color: rgb(179, 178, 178);
     border: 2px solid rgb(34, 33, 33)
 }
