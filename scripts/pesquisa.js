@@ -1,4 +1,4 @@
-function buscarJogo() {
+function buscarJogos() {
     
     const termo = document.getElementById('campoPesquisa').value.toLowerCase().trim();
 
