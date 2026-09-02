@@ -15,29 +15,8 @@
          <p style="text-align: center;"> <input class="barra" type="text" id="campoPesquisa" placeholder="Pesquise o jogo">
 
 <!-- O botão que dispara a função -->
-<button class="pesquisar" onclick="buscarPagina()">Pesquisar</button>
+<button class="pesquisar" onclick="buscarJogo()">Pesquisar</button>
 
-<script>
-function buscarPagina() {
-    // 1. Pega o valor digitado e transforma em letras minúsculas
-    const termo = document.getElementById('campoPesquisa').value.toLowerCase().trim();
-
-    // 2. Banco de dados simples (Palavra-chave : Página de destino)
-    const paginas = {
-        "minecraft": "jogos/minecraft.html",
-        "god of war": "jogos/godofwar.html",
-        "batman arkham night": "jogos/batmanarkhamnight.html",
-    };
-
-    // 3. Verifica se o termo existe no banco de dados
-    if (paginas[termo]) {
-        // Redireciona para a página correspondente
-        window.location.href = paginas[termo];
-    } else {
-        // Mensagem caso não encontre nada
-        alert("Jogo não encontrado ou disponível.");
-    }
-}
-</script></p>
+<script src="index.js"></script></p>
        
      </body>
