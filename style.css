@@ -2,11 +2,10 @@ body {
     margin: 0;
     min-height: 100vh;
 
-    background-image: url("imagens/banner-ou-cartaz-de-fundo-com-gradiente-azul-e-branco_752707-362.jpg");
+    background-color: black;
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: black;
 }
 
 .logo {
@@ -31,6 +30,10 @@ body {
     border: 2px solid rgb(34, 33, 33)
 }
 
+.h1 {
+  color: white;  
+}
+
 .p {
-   text-align: center;
+   color: white;
 }
