@@ -16,17 +16,13 @@ body {
     top: 30px;
 }
 .pesquisar {
-    position: relative ;
     width: 10%;
     height: 5vh;
-    bottom: 350px;
     background-color: aqua;
     border: 2px solid rgb(16, 54, 59);
 }
 
 .barra {
-    position: relative;
-    bottom: 350px;
     width: 20%;
     height: 5vh;
     font-size: 20px;
