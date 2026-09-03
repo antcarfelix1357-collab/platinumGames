@@ -30,3 +30,7 @@ body {
     background-color: rgb(179, 178, 178);
     border: 2px solid rgb(34, 33, 33)
 }
+
+.p {
+   padding-left: 45px; 
+}
