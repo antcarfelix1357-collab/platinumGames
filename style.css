@@ -39,12 +39,9 @@ p {
 }
 
 .sugestoes{
-    background-color: blue;
-    color: white;
+    background-color: blue !important;
     
-    height: 300px;
+    height: 300px  !important;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    widht: 100% !important;
 }
