@@ -37,3 +37,14 @@ h1 {
 p {
    color: white;
 }
+
+.sugestoes{
+    background-color: blue;
+    color: white;
+    
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
