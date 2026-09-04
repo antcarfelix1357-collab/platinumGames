@@ -54,6 +54,6 @@ p {
     align-items: center;
 }
 
-img{
+.borda-img{
     border: 5px solid blue;
 }
