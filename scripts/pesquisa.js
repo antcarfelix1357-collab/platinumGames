@@ -7,6 +7,7 @@ function buscarJogos() {
         "minecraft": "jogos/minecraft.html",
         "god of war": "jogos/godofwar.html",
         "batman arkham night": "jogos/batmanarkhamnight.html",
+        "cuphead": "jogos/cuphead.html"
     };
 
     
