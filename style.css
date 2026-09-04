@@ -59,7 +59,7 @@ p {
 }
 
 .definição1{
-    position: absolute;
-    top: 800px;
-    left: 180px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
