@@ -53,3 +53,8 @@ p {
 
     align-items: center;
 }
+
+img{
+    border-left: 3px solid blue;
+    border-right: 3px solid blue
+}
